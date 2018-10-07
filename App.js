@@ -5,11 +5,11 @@ const SCREEN_HEIGHT = Dimensions.get("window").height;
 const SCREEN_WIDTH = Dimensions.get("window").width;
 
 const ARTICLES = [
-  { id: "1", uri: require("./assets/1.jpg"), name: "1st image" },
-  { id: "2", uri: require("./assets/2.jpg"), name: "2nd image" },
-  { id: "3", uri: require("./assets/3.jpg"), name: "3rd image" },
-  { id: "4", uri: require("./assets/4.jpg"), name: "4th image" },
-  { id: "5", uri: require("./assets/5.jpg"), name: "5th image" }
+  { id: 1, uri: require("./assets/1.jpg") },
+  { id: 2, uri: require("./assets/2.jpg") },
+  { id: 3, uri: require("./assets/3.jpg") },
+  { id: 4, uri: require("./assets/4.jpg") },
+  { id: 5, uri: require("./assets/5.jpg") }
 ];
 
 const styles = StyleSheet.create({
